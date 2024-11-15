@@ -1,0 +1,147 @@
+/* Reset de márgenes y padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Estilos generales */
+  body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    line-height: 1.6;
+  }
+  
+  /* Barra de navegación */
+  nav {
+    background-color: #646464;
+    color: #fff;
+    padding: 15px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+  }
+
+  nav .secundario{
+    color: purple;
+  }
+  
+  nav .logo {
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+  }
+  
+  nav ul li {
+    margin-left: 20px;
+  }
+  
+  nav ul li a {
+
+      background-color: #3498db;
+      color: white;
+      padding: 12px 25px;
+      margin-top: 20px;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+  }
+
+  nav ul li a:hover {
+
+    background-color: #2b81bb;
+    border-radius: 30%;
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+   
+  /* Estilo del header */
+  header {
+    background: #2c3e50;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+  }
+  
+  header h1 {
+    font-size: 48px;
+    margin-bottom: 20px;
+  }
+  
+  header p {
+    font-size: 22px;
+  }
+  
+  /* Sección común */
+  section {
+    
+    padding: 10%;
+    margin: 50px;
+    background: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  section h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
+  section p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    color: #555;
+    line-height: 1.8;
+  }
+
+  Section ul {
+    margin-top: 30px;
+  }
+
+  section li {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+    margin-left: 13%;
+  }
+  
+  /* Estilo de los botones */
+  .btn {
+    display: inline-block;
+    background-color: #3498db;
+    color: white;
+    padding: 12px 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  footer p {
+    font-size: 16px;
+  }
+  
